@@ -34,8 +34,20 @@ santa config set provider:provider <pkgcloud-provider-name>
 `santa` expects 3 files in your application:
 
   * `package.json`
-  * `scripts/install` - should install your application
-  * `scripts/start` - should start your application
+  * `scripts/install`
+  * `scripts/configure`
+  * `scripts/start`
+
+#### Scripts
+
+##### `scripts/install`
+Install all your software.
+
+##### `scripts/configure`
+Configure all your software.
+
+##### `scripts/start`
+Start all your software.
 
 For an example of a `santa` application, see [`santa-hello-world`](https://github.com/vigour-io/santa-hello-world).
 
